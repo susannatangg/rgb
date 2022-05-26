@@ -27,7 +27,7 @@ window.onload=function(){
                 }else{
                     // circles[i].style.borderColor="red";
                     // circles[i].style.borderWidth="thick";
-                    //circles[i].classList.add("wrong-border");
+                    circles[i].classList.add("wrong-border");
                     if(parseInt(score.textContent)>parseInt(highScore.textContent)){
                         highScore.textContent=score.textContent;
                     }
