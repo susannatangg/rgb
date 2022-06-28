@@ -3,6 +3,19 @@ body{
     display:flex;
     flex-direction:column;
     align-items:center;
+    background-color:rgb(240, 240, 240);
+    overflow-x:hidden;
+}
+
+#header{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    width:100vw;
+    margin-top:-10px;
+    background-image: linear-gradient(to bottom right, #DA4453, #89216B);
+    margin-bottom:60px;
+    color:rgb(240, 240, 240);
 }
 
 .container{
